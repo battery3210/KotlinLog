@@ -19,9 +19,12 @@ class MainActivity : AppCompatActivity() {
 
         val dog = Dog("ポチ",3)
         val human = Human("坂元",50, "映画")
+        val human_new = Human("岡本",24, "野球")
 
         human.think()
         human.say()
+        human_new.think()
+        human_new.say()
         dog.move()
         dog.say()
         Log.d("kotlintest22","犬の名前は" + dog.name + "です")
